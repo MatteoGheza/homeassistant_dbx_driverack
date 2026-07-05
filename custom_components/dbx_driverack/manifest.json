@@ -1,0 +1,10 @@
+{
+  "domain": "dbx_driverack",
+  "name": "dbx DriveRack PA2",
+  "codeowners": [],
+  "config_flow": true,
+  "documentation": "https://github.com/example/dbx_driverack",
+  "iot_class": "local_push",
+  "requirements": ["pydbxdriverack==0.1.0"],
+  "version": "1.0.0"
+}
