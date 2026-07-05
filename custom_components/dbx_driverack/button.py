@@ -1,4 +1,5 @@
 import logging
+
 from homeassistant.components.button import ButtonEntity
 from homeassistant.config_entries import ConfigEntry
 from homeassistant.core import HomeAssistant
@@ -6,7 +7,7 @@ from homeassistant.exceptions import HomeAssistantError
 from homeassistant.helpers.entity_platform import AddEntitiesCallback
 from homeassistant.helpers.update_coordinator import CoordinatorEntity
 
-from .const import DOMAIN, DEFAULT_BANDS, CHANNELS
+from .const import CHANNELS, DEFAULT_BANDS, DOMAIN
 
 _LOGGER = logging.getLogger(__name__)
 

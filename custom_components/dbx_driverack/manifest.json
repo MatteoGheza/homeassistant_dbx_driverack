@@ -1,10 +1,11 @@
 {
   "domain": "dbx_driverack",
-  "name": "dbx DriveRack PA2",
-  "codeowners": [],
+  "name": "DBX DriveRack PA2",
+  "codeowners": ["@matteogheza"],
   "config_flow": true,
-  "documentation": "https://github.com/example/dbx_driverack",
-  "iot_class": "local_push",
+  "documentation": "https://github.com/MatteoGheza/homeassistant_dbx_driverack",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/MatteoGheza/homeassistant_dbx_driverack/issues",
   "requirements": ["pydbxdriverack==0.1.0"],
-  "version": "1.0.0"
+  "version": "0.1.0"
 }
